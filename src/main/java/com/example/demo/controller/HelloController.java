@@ -14,6 +14,6 @@ public class HelloController {
     @GetMapping("/current")
     public String helloWorld(){
         LocalDateTime now = LocalDateTime.now();
-        return "hello current is "+ LocalDateTimeUtil.formatNormal(now);
+        return "v2 hello current is "+ LocalDateTimeUtil.formatNormal(now);
     }
 }
