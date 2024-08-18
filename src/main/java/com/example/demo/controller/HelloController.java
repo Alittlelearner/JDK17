@@ -17,6 +17,7 @@ public class HelloController {
     public String helloWorld(HttpServletRequest request) {
         LocalDateTime now = LocalDateTime.now();
         return "hello current is " + LocalDateTimeUtil.formatNormal(now);
+
     }
 
 }
